@@ -78,7 +78,7 @@
         showMessage('login is successful', 'signInMessage');
         const user=userCredential.user;
         localStorage.setItem('loggedInUserId', user.uid);
-        window.location.href='https://040fa38b5eb50f9dff.gradio.live/';
+        window.location.href='https://4e0a82cd4938c0d98a.gradio.live';
     })
     .catch((error)=>{
         const errorCode=error.code;
